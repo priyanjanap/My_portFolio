@@ -1,0 +1,83 @@
+
+#resumeSection{
+    height: 30vh;
+}
+#resumeSection>div{
+    background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+    height: 20vh;
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+}
+#resumeSection>div>div{
+    display: inline-block;
+    font-size: 1em;
+    height: 7vh;
+    margin: 0 15px;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    top: 7vh;
+    width: 16vw;
+}
+#resumeSection>div>div>div:first-child{
+    height: 7vh;
+    width: 16vw;
+
+}
+#resumeSection>div>div>div:nth-child(2){
+    height: 7vh;
+    width: 16vw;
+    transform: translateY(-111%);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#resumeSection>div>div>div:nth-child(2)>h4{
+    font-size: 97%;
+}
+.showText{
+    transform: translateY(-111%) !important;
+    transition-duration: 1s;
+}
+.hideIcon{
+    transform: translateY(-73%);
+    transition-duration: 1s;
+}
+.hidetext{
+    transform: translateY(0%) !important;
+    transition-duration: 1s;
+}
+.showIcon{
+    transform: translateY(14%) !important;
+    transition-duration: 1s;
+}
+
+@media all and (max-width: 1200px){
+    #resumeSection>div>div>div:nth-child(2)>h4{
+        font-size: 1vw;
+    }
+    .showText{
+        transform: translateY(-94%);
+    }
+}
+@media all and (max-width: 769px){
+    #resumeSection>div>div>div:nth-child(2)>h4{
+        font-size: 9px;
+    }
+    .showText{
+        transform: translateY(-79%);
+    }
+}
+
+@media all and (max-width: 425px){
+    #resumeSection>div>div>div:nth-child(2)>h4{
+        font-size: 9px;
+    }
+    .showText{
+        transform: translateY(-82%) ;
+    }
+}

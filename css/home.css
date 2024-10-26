@@ -1,0 +1,321 @@
+.sec {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to bottom, blue, white);
+    position: relative;
+}
+
+.homeContent {
+    position: absolute;
+    left: 8vw;
+    font-size: 3rem;
+    color: #002057;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#homeSection > h1:first-child {
+    top: 24vh;
+}
+
+#homeSection > h1:nth-child(2) {
+    top: 35vh;
+}
+#homeSection > h1:nth-child(2)>span{
+    color: #FF7A00;
+}
+#homeSection > h3{
+    position: absolute;
+    left: 8vw;
+    color: #002057;
+    font-family: sans-serif;
+    font-weight: bold;
+    top: 46vh;
+    font-size: 160%;
+}
+#homeSection > h3>span{
+    color: #960000;
+}
+#homeSection>a{
+    position: absolute;
+    top: 59vh;
+    left: 8vw;
+    font-size: 19px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 43px;
+    background-color: #002057;
+    color: white;
+    box-shadow: #013793 0px 8px 24px;
+}
+.hoverBtn{
+    margin-right: 5px;
+    transition-duration: 0.3s;
+}
+#socials{
+    top: 69vh;
+    position: absolute;
+    left: 5vw;
+}
+#socials>ul>li{
+    display: inline-block;
+    margin-right: 8px;
+}
+#socials>ul>li>a{
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 48px;
+    color: #00d9ff;
+    background-color: #09011b;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+#socials>ul>li>a:active,
+#socials>ul>li>a:focus,
+#socials>ul>li>a:hover {
+    color: #fff;
+    background-color: #0685da;
+}
+#homeImage{
+    position: absolute;
+    top: 19vh;
+    left: 55vw;
+}
+#homeImage>img{
+    border-radius: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 97%;
+}
+#homeImage>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition-duration: 0.5s;
+}
+
+@media all and (max-width: 1010px){
+    #homeImage{
+        top: 8vh;
+        width: 35%;
+        left: 33%;
+    }
+    #homeSection > h1:first-child{
+        top: 62vh;
+        left: 30vw;
+        font-size: 235%;
+    }
+    #homeSection > h1:nth-child(2){
+        top: 70vh;
+        left: 30vw;
+        font-size: 235%;
+    }
+    #homeSection > h3{
+        top: 77vh;
+        left: 30vw;
+        font-size: 192%;
+    }
+    #homeSection>a{
+        top: 91vh;
+        left: 30vw;
+    }
+    #socials>ul>li{
+        display: grid;
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+    #socials{
+        left: 80vw;
+        top: 15vh;
+    }
+    #socials>ul>li>a{
+        width: 125%;
+        height: 100%;
+    }
+}
+
+@media all and (max-width: 768px){
+    #homeImage{
+        top: 8vh;
+        width: 35%;
+        left: 30%;
+    }
+    #homeSection > h1:first-child{
+        top: 57vh;
+        left: 27vw;
+        font-size: 235%;
+    }
+    #homeSection > h1:nth-child(2){
+        top: 65vh;
+        left: 27vw;
+        font-size: 235%;
+    }
+    #homeSection > h3{
+        top: 73vh;
+        left: 27vw;
+        font-size: 188%;
+    }
+    #homeSection>a{
+        top: 88vh;
+        left: 29vw;
+    }
+    #socials>ul>li{
+        display: grid;
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+    #socials{
+        left: 80vw;
+        top: 15vh;
+    }
+    #socials>ul>li>a{
+        width: 125%;
+        height: 100%;
+    }
+    #socials>ul>li>a{
+        font-size: 1.5rem;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+}
+@media all and (max-width: 625px){
+    #homeImage{
+        top: 8vh;
+        width: 47%;
+        left: 24%;
+    }
+}
+@media all and (max-width: 564px){
+    #homeImage{
+        top: 8vh;
+        width: 56%;
+        left: 17%;
+    }
+    #homeSection > h1:first-child{
+        top: 52vh;
+        left: 20vw;
+        font-size: 165%;
+    }
+    #homeSection > h1:nth-child(2){
+        top: 59vh;
+        left: 20vw;
+        font-size: 165%;
+    }
+    #homeSection > h3{
+        top: 66vh;
+        left: 20vw;
+        font-size: 137%;
+    }
+    #homeSection>a{
+        top: 81vh;
+        left: 21vw;
+    }
+    #socials{
+        left: 76vw;
+        top: 9vh;
+    }
+    #socials>ul>li>a{
+        width: 125%;
+        height: 100%;
+    }
+    #socials>ul>li>a{
+        font-size: 1rem;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media all and (max-width: 376px) {
+    #homeImage {
+        top: 10vh;
+        width: 62%;
+        left: 17%;
+    }
+
+    #homeSection > h1:first-child {
+        top: 50vh;
+        left: 17vw;
+        font-size: 150%;
+    }
+
+    #homeSection > h1:nth-child(2) {
+        top: 57vh;
+        left: 17vw;
+        font-size: 150%;
+    }
+
+    #homeSection > h3 {
+        top: 65vh;
+        left: 17vw;
+        font-size: 117%;
+    }
+
+    #homeSection > a {
+        top: 80vh;
+        left: 17vw;
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    #socials {
+        left: 76vw;
+        top: 10vh;
+    }
+
+    #socials > ul > li > a {
+        width: 125%;
+        height: 100%;
+    }
+
+    #socials > ul > li > a {
+        font-size: 1rem;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    #homeImage{
+        top: 11vh;
+        width: 68%;
+        left: 14%;
+    }
+
+    #socials {
+        left: 73vw;
+        top: 11vh;
+    }
+    #homeSection > h1:first-child {
+        top: 49vh;
+        left: 17vw;
+        font-size: 150%;
+    }
+
+    #homeSection > h1:nth-child(2) {
+        top: 55vh;
+        left: 17vw;
+        font-size: 150%;
+    }
+
+    #homeSection > h3 {
+        top: 61vh;
+        left: 17vw;
+        font-size: 117%;
+    }
+
+    #homeSection > a {
+        top: 70vh;
+        left: 20vw;
+        font-size: 8px;
+        padding: 10px;
+    }
+}

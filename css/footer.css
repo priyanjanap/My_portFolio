@@ -1,0 +1,209 @@
+
+#footer {
+    position: relative;
+    overflow: hidden;
+    height: 257px;
+    background-color: #000000;
+    border-radius: 40px 40px 0px 0px;
+    background-image: linear-gradient(black, rgba(14, 14, 14, 1));
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#footer > img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 16%;
+}
+
+#footer > nav {
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    left: 8%;
+    position: absolute;
+    top: 21%;
+}
+
+#footerSocials {
+    position: absolute;
+    right: 6%;
+    width: 29%;
+    top: 37%;
+}
+
+#footerSocials > ul > li {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+#footerSocials > ul > li > a {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 48px;
+    color: #00d9ff;
+    background-color: #09011b;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+@media all and (max-width: 1250px) {
+    #footer {
+        height: 257px;
+    }
+
+    #footerSocials {
+        width: 30vw;
+    }
+}
+
+@media all and (max-width: 890px) {
+    #footer {
+        height: 257px;
+    }
+
+    #footer > nav {
+        left: 5%;
+        top: 16%;
+    }
+
+    #footer > img {
+        width: 20%;
+    }
+
+
+}
+
+@media all and (max-width: 830px) {
+    #footer > nav {
+        left: 5%;
+        top: 18%;
+        font-size: 15px;
+    }
+
+    #footerSocials {
+        width: 30%;
+    }
+
+    #footerSocials > ul > li > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 740px) {
+    #footer {
+        height: 226px;
+    }
+
+    #footer > nav {
+        left: 5%;
+        top: 18%;
+        font-size: 15px;
+    }
+
+    #footerSocials {
+        width: 30%;
+        top: 14%;
+    }
+
+    #footerSocials > ul > li > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 660px) {
+    #footerSocials {
+        width: 30%;
+        top: 14%;
+        right: 0;
+    }
+
+    #footer > nav {
+        left: 3%;
+        top: 21%;
+        font-size: 13px;
+    }
+
+    #footer > img {
+        width: 24%;
+    }
+}
+
+@media all and (max-width: 570px) {
+    #footer {
+        height: 226px;
+    }
+    #footer > img {
+        width: 24%;
+        left: 75px;
+    }
+
+    #footer > nav {
+        left: 3%;
+        top: 21%;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 530px) {
+    #footerSocials {
+        opacity: 0;
+    }
+
+    #footer > img {
+        width: 156px;
+        left: 244px;
+    }
+
+    #footer > nav {
+        left: 3%;
+        top: 21%;
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 430px) {
+    #footer > img {
+        width: 156px;
+        left: 202px;
+    }
+
+    #footer > nav {
+        left: 3%;
+        top: 21%;
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 390px){
+    #footer > img {
+        width: 137px;
+        left: 161px;
+    }
+    #footer > nav {
+        left: 3%;
+        top: 26%;
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 321px){
+    #footer > img {
+        width: 116px;
+        left: 174px;
+    }
+    #footer {
+        height: 163px;
+    }
+    #footer > nav {
+        left: 3%;
+        top: 14%;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,114 @@
+#blogSection>div{
+    width: 76%;
+    height: 90vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    top: 8vh;
+    left: 12vw;
+    background-color: rgba(218, 219, 221, 1);
+    border-radius: 12px;
+    z-index: 999;
+}
+#blogSection>div>img{
+    width: 37%;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    border-radius: 12px;
+}
+#blogSection>div>h1{
+    position: absolute;
+    font-size: 29px;
+    font-family: cursive;
+    top: 11vh;
+    left: 7vw;
+    font-weight: bold;
+
+    animation-name: blogTitle ;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+#blogSection>div>p{
+    font-size: 18px;
+    font-family: monospace;
+    width: 35vw;
+    position: absolute;
+    top: 28vh;
+    left: 3vw;
+    line-height: 47px;
+}
+@media all and (max-width: 901px){
+    #blogSection>div>p{
+        font-size: 18px;
+        font-family: monospace;
+        width: 35vw;
+        position: absolute;
+        top: 21vh;
+        left: 3vw;
+        line-height: 47px;
+    }
+}
+@media all and (max-width: 801px){
+    #blogSection>div>p{
+        font-size: 18px;
+        font-family: monospace;
+        width: 63vw;
+        position: absolute;
+        top: 14vh;
+        left: 7vw;
+        line-height: 47px;
+    }
+    #blogSection>div>h1{
+        top: 5vh !important;
+        left: 7vw;
+    }
+}
+@media all and (max-width: 630px){
+    #blogSection>div>p{
+        font-size: 18px;
+        font-family: monospace;
+        width: 63vw;
+        position: absolute;
+        top: 10vh;
+        left: 7vw;
+        line-height: 40px;
+    }
+
+}
+@media all and (max-width: 530px){
+    #blogSection>div>p{
+        top: 17vh;
+        left: 7vw;
+        line-height: 40px;
+    }
+    #blogSection>div>h1{
+        top: 6vh !important;
+        left: 7vw;
+    }
+}
+@media all and (max-width: 440px){
+    #blogSection>div>p{
+        top: 13vh;
+        left: 7vw;
+        line-height: 40px;
+    }
+}
+@media all and (max-width: 376px){
+    #blogSection>div>p{
+        line-height: 22px;
+        font-size: 14px;
+        top: 15vh;    }
+    #blogSection>div>img{
+        width: 193px;
+    }
+}
+@keyframes blogTitle {
+    from{
+        top: 10vh;
+        opacity: 0;
+    }
+    to{
+        top: 12vh;
+        opacity: 1;
+    }
+}

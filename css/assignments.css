@@ -1,0 +1,209 @@
+#assignmentSection {
+    overflow: hidden;
+    height: 986px;
+    background-color: white;
+}
+
+#assignmentSection > nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    left: 3vw;
+    position: relative;
+
+}
+
+#assignmentSection > nav > div {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+#assignmentSection > nav > div>div:first-child{
+    background-color: #020218;
+    width: 100%;
+    aspect-ratio: 1/1;
+    z-index: 999;
+    position: relative;
+}
+
+#assignmentSection > nav > div>div:first-child>img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -145px;
+    bottom: 0;
+    margin: auto;
+}
+
+#assignmentSection > nav > div>div:nth-child(2){
+    position: relative;
+    background-color: #001940;
+    width: 5px;
+    height: 5px;
+    top: -215px;
+    margin: auto;
+    transform: translateY(-200px);
+    z-index: 999;
+    transition-duration: 2s;
+}
+
+#assignmentSection > nav > div>div:nth-child(2)>h1{
+    position: relative;
+    left: 168px;
+    font-family: cursive;
+    top: 30px;
+    color: #001940;
+
+    transition-duration: 2s;
+}
+#assignmentSection > nav > div>div:nth-child(2)>img:first-child{
+    width: 35px;
+    position: relative;
+    top: 170px;
+    left: 209px;
+    cursor: copy;
+
+    transition-duration: 2s;
+}
+#assignmentSection > nav > div>div:nth-child(2)>img:nth-child(2){
+    width: 37px;
+    position: relative;
+    top: 170px;
+    left: 262px;
+    transition-duration: 2s;
+
+    cursor: copy;
+}
+
+.showintcir{
+    width: 550px !important;
+    height: 550px !important;
+    border-radius: 100% !important;
+    background-color: white !important;
+    transition-duration: 1s !important;
+    top: -250px;
+    left: -102px;
+
+}
+
+@media all and (max-width: 1240px) {
+    #assignmentSection > nav {
+        left: 2vw;
+    }
+
+}
+
+@media all and (max-width: 1156px) {
+    #assignmentSection > nav {
+        left: 0.5vw;
+    }
+
+}
+
+@media all and (max-width: 1076px) {
+    #assignmentSection > nav {
+        left: 0.2vw;
+    }
+
+}
+
+@media all and (max-width: 1061px) {
+    #assignmentSection > nav {
+        grid-template-columns: repeat(2, 1fr);
+        left: 8vw;
+    }
+
+    #assignmentSection {
+        height: 1409px;
+    }
+
+}
+
+@media all and (max-width: 951px) {
+    #assignmentSection > nav {
+        left: 6vw;
+    }
+
+}
+
+@media all and (max-width: 851px) {
+    #assignmentSection > nav {
+        left: 4vw;
+    }
+
+}
+
+@media all and (max-width: 781px) {
+    #assignmentSection > nav {
+        left: 2vw;
+    }
+
+}
+
+@media all and (max-width: 740px) {
+    #assignmentSection > nav {
+        left: 1vw;
+    }
+
+}
+
+@media all and (max-width: 719px) {
+    #assignmentSection > nav {
+        grid-template-columns: repeat(1, 1fr);
+        left: 25vw;
+    }
+    #assignmentSection {
+        height: 2700px;
+    }
+
+}
+
+@media all and (max-width: 651px) {
+    #assignmentSection > nav {
+        left: 22vw;
+    }
+
+}
+
+@media all and (max-width: 585px) {
+    #assignmentSection > nav {
+        left: 20vw;
+    }
+
+}
+
+@media all and (max-width: 521px) {
+    #assignmentSection > nav {
+        left: 15vw;
+    }
+
+}
+
+@media all and (max-width: 465px) {
+    #assignmentSection > nav {
+        left: 11vw;
+    }
+
+}
+
+@media all and (max-width: 420px) {
+    #assignmentSection > nav {
+        left: 6vw;
+    }
+
+}
+
+@media all and (max-width: 383px) {
+    #assignmentSection > nav {
+        left: 1vw;
+    }
+
+    #assignmentSection > nav > div {
+        width: 97vw;
+        height: 26vh;
+    }
+
+
+}
+
